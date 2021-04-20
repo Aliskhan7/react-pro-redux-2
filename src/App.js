@@ -13,7 +13,7 @@ useEffect(() => {
 }, [])
 
   return (
-    <div>
+    <div className='div'>
       Список дел:
       {loading ? 'load...' : (
           todos.map(item => {
